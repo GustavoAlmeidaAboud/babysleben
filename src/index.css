@@ -9,3 +9,16 @@
   background-color: black;
   color: azure;
 }
+
+.brand{
+  text-align: center;
+}
+
+.sitetitle{
+  content: Babysleben;
+}
+
+.m-auto{
+  font-family: 'Cormorant Garamond', serif;
+  color:  	#660066
+}

@@ -1,8 +1,12 @@
 import React from "react";
+import Socialbrand from "./Socialbrand";
 
 const Footer = () => (
   <div className="fix-bottom">
-    <p>This is some content in sticky footer</p>
+    <button><Socialbrand /></button>
+    <button></button>
+    <button></button>
+    <button></button>
   </div>
 );
 
