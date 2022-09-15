@@ -1,12 +1,8 @@
 import React from "react";
-import Socialbrand from "./Socialbrand";
 
 const Footer = () => (
   <div className="fix-bottom">
-    <button><Socialbrand /></button>
-    <button></button>
-    <button></button>
-    <button></button>
+    <h1>test</h1>
   </div>
 );
 
