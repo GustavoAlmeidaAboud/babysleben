@@ -1,0 +1,11 @@
+.image1{
+  height: 15rem;
+}
+.container-fluid{
+  padding: 0;
+}
+.fix-bottom{
+  padding: 1rem;
+  background-color: black;
+  color: azure;
+}
