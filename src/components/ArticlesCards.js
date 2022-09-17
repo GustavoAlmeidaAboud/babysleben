@@ -11,7 +11,7 @@ function ArticlesCards({ima,title,text,link}) {
         <Card.Text>
           {text}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go somewhere </Button>
       </Card.Body>
     </Card>
   );

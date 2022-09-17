@@ -20,7 +20,11 @@ function App() {
         <Col><Carrousel fluid/> </Col>
       </Row>
       <Row>
-        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
+        <Col><ArticlesCards title="Hello World" ima="https://th.bing.com/th/id/R.e61041185cd63827e6cdb7a9179ae285?rik=rm2VN7OYHIS75w&pid=ImgRaw&r=0" text="Yamii Yamii
+Der Besafe Schwangerschaftsgurt, ist der beste Gurt auf dem Markt um euer Baby zu schützen. 
+Dieser Gurt hilf damit die Gurtführung, im unteren Bereich des Bauches nicht auf dem Baby ist. 
+Somit wenn wir eine Vollbremsung haben schirft der Gurt nicht am Baby ab, dies kann dem Baby das Leben retten. 
+Ich trage diesen Gurt nun schon für die zweite Schwangerschaft und bin so froh ihn zu haben. ☺️"/></Col>
         <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
         <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
       </Row>
@@ -28,8 +32,8 @@ function App() {
         <Row>
           <Col>
             <Footer 
-              tiktok={<FaTiktok size={30} style={{ fill: 'white' }}/>}
-              youtube={<FaYoutube size={30} style={{ fill: 'white' }} />}
+              tiktok={<FaTiktok size={30} style={{ fill: '#ff0050' }}/>}
+              youtube={<FaYoutube size={30} style={{ fill: '#FF0000' }} />}
               instagram={<FaYoutube size={30} style={{ fill: 'white' }} />}
             />
           </Col>
