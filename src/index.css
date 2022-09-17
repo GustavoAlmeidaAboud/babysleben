@@ -6,15 +6,12 @@
   padding: 0;
 }
 .fixed-bottom{
-  text-align: center;
+  height: 3rem;
   padding: 1rem;
   background-color: black;
   color: azure;
 }
 
-.brand{
-  text-align: center;
-}
 
 .sitetitle{
   content: Babysleben;
@@ -23,4 +20,15 @@
 .m-auto{
   font-family: 'Cormorant Garamond', serif;
   color:  	#660066
+}
+
+.footerlogo{
+  height: 3rem;
+}
+.footertext{
+  font-size: 0.9;
+}
+
+.navigationbar{
+  background-color: #660066;
 }

@@ -7,6 +7,7 @@ import Carrousel from './components/Carrousel.js';
 import Footer from './components/Footer.js';
 import ArticlesCards from './components/ArticlesCards.js';
 import { FaTiktok,FaYoutube } from 'react-icons/fa';
+import Footerlogo from './components/Footerlogo.js';
 
 function App() {
   return (
@@ -20,17 +21,20 @@ function App() {
       </Row>
       <Row>
         <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
+        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
+        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
       </Row>
       <Row className="fixed-bottom">
-        <Col>
-          <Footer 
-            tiktok={<FaTiktok/>}
-            youtube={<FaYoutube/>}
-            instagram={<FaYoutube/>}
-          />
-        </Col>
-        <Col>1</Col>
-        <Col>Written by Yamii</Col>
+        <Row>
+          <Col>
+            <Footer 
+              tiktok={<FaTiktok size={30} style={{ fill: 'white' }}/>}
+              youtube={<FaYoutube size={30} style={{ fill: 'white' }} />}
+              instagram={<FaYoutube size={30} style={{ fill: 'white' }} />}
+            />
+          </Col>
+          <Col className='footertext'>Written by Yamii</Col>
+        </Row>
       </Row>
     </Container>
   </div>
