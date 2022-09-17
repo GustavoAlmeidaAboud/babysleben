@@ -6,7 +6,7 @@ import Navigationbar from './components/Navigationbar.js'
 import Carrousel from './components/Carrousel.js';
 import Footer from './components/Footer.js';
 import ArticlesCards from './components/ArticlesCards.js';
-import Image  from 'react-bootstrap';
+import { FaTiktok,FaYoutube } from 'react-icons/fa';
 
 function App() {
   return (
@@ -16,19 +16,21 @@ function App() {
         <Col><Navigationbar/></Col>
       </Row>
       <Row>
-        <Col><Carrousel/> </Col>
+        <Col><Carrousel fluid/> </Col>
       </Row>
       <Row>
         <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
       </Row>
-      <Row>
-        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
-      </Row>
-      <Row>
-        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
-      </Row>
-      <Row>
-        <Col><Footer /> </Col>
+      <Row className="fixed-bottom">
+        <Col>
+          <Footer 
+            tiktok={<FaTiktok/>}
+            youtube={<FaYoutube/>}
+            instagram={<FaYoutube/>}
+          />
+        </Col>
+        <Col>1</Col>
+        <Col>Written by Yamii</Col>
       </Row>
     </Container>
   </div>
