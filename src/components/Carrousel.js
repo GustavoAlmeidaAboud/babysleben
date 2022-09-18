@@ -18,7 +18,7 @@ const Carrousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 image1"
-          src="https://th.bing.com/th/id/OIP.R_Im5J6OFml__E2PkGljGwHaFT?pid=ImgDet&rs=1"
+          src="https://i1.adis.ws/i/washford/Isofix_Car_Seat_FT_770x470.jpg?w=768"
           alt="Second slide"
         />
 
@@ -30,7 +30,7 @@ const Carrousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 image1"
-          src="https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C"
+          src="https://th.bing.com/th/id/OIP.A33OpIjxMD17Z6yG1_SW2AHaE6?w=301&h=200&c=7&r=0&o=5&dpr=1.25&pid=1.7"
           alt="Third slide"
         />
 

@@ -8,8 +8,11 @@ import Footer from './components/Footer.js';
 import ArticlesCards from './components/ArticlesCards.js';
 import { FaTiktok,FaYoutube } from 'react-icons/fa';
 import Footerlogo from './components/Footerlogo.js';
+import { Button } from 'react-bootstrap';
+import BrandExample from './components/BrandExample.js';
 
 function App() {
+
   return (
   <div>
       <Container className='d-grid gap-1' fluid>
@@ -25,21 +28,12 @@ Der Besafe Schwangerschaftsgurt, ist der beste Gurt auf dem Markt um euer Baby z
 Dieser Gurt hilf damit die Gurtführung, im unteren Bereich des Bauches nicht auf dem Baby ist. 
 Somit wenn wir eine Vollbremsung haben schirft der Gurt nicht am Baby ab, dies kann dem Baby das Leben retten. 
 Ich trage diesen Gurt nun schon für die zweite Schwangerschaft und bin so froh ihn zu haben. ☺️"/></Col>
-        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
-        <Col><ArticlesCards title="Hello World" ima="https://cdn.pixabay.com/photo/2021/07/17/15/43/colour-pencils-6473351_960_720.jpg" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
+        <Col><ArticlesCards title="Hello World" ima="https://i1.adis.ws/i/washford/Isofix_Car_Seat_FT_770x470.jpg?w=768" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
+        <Col><ArticlesCards title="Hello World" ima="https://th.bing.com/th/id/OIP.A33OpIjxMD17Z6yG1_SW2AHaE6?w=301&h=200&c=7&r=0&o=5&dpr=1.25&pid=1.7" text="Hello Hello Hello Hello Hello hello Heloooooooou askjdnaksjdnjasndjkasndasjd"/></Col>
       </Row>
-      <Row className="fixed-bottom">
         <Row>
-          <Col>
-            <Footer 
-              tiktok={<FaTiktok size={30} style={{ fill: '#ff0050' }}/>}
-              youtube={<FaYoutube size={30} style={{ fill: '#FF0000' }} />}
-              instagram={<FaYoutube size={30} style={{ fill: 'white' }} />}
-            />
-          </Col>
-          <Col className='footertext'>Written by Yamii</Col>
+          <Col><BrandExample/></Col>
         </Row>
-      </Row>
     </Container>
   </div>
   )
