@@ -5,7 +5,7 @@ import { Image } from 'react-bootstrap';
 
 function BrandExample() {
   return (
-    <div className='fixed-bottom'>
+    <div>
       <Navbar  bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
