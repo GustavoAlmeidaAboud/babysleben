@@ -5,28 +5,8 @@
 .container-fluid{
   padding: 0;
 }
-.fixed-bottom{
-  height: 3rem;
-  background-color: #7952b3;
-  color: azure;
-}
-
-.sitetitle{
-  content: Babysleben;
-}
 
 .m-auto{
   font-family: 'Cormorant Garamond', serif;
   color:  	#660066
-}
-
-.footerlogo{
-  height: 4rem;
-}
-.footertext{
-  font-size: 0.9;
-}
-
-.navigationbar{
-  background-color: #660066;
 }
