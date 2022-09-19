@@ -15,3 +15,8 @@
   margin-bottom: 90px; /* how high is your footer */
   visibility: hidden; 
 }
+
+
+.article{
+  display: inline;
+}
