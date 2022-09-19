@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Article1 from '../pages/article1.js'
 
 function ArticlesCards({ima,title,text,link}) {
   return (
@@ -11,7 +12,7 @@ function ArticlesCards({ima,title,text,link}) {
         <Card.Text>
           {text}
         </Card.Text>
-        <Button variant="primary">Go somewhere </Button>
+        <a href="./article1"><Button style={{"color":"white","backgroundColor":"#6f42c1","fontWeight":"600"}} >Read full article </Button></a>
       </Card.Body>
     </Card>
   );

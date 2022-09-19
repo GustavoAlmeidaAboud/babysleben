@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Navigationbar from '../components/Navigationbar'
 import Carrousel from '../components/Carrousel'
 import BrandExample from '../components/BrandExample'
-import ArticlesCards from '../components/ArticlesCards';
 import Ratio from 'react-bootstrap/Ratio';
 
 function article1() {
@@ -21,7 +20,7 @@ function article1() {
                 <Row >
                     <Col>
                         <Ratio aspectRatio={100}>
-                            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/-GertYBBkGE"></iframe>
                         </Ratio>
                     </Col>
                 </Row>
