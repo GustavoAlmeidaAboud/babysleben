@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/babysleben/static/css/main.74725511.css",
-    "main.js": "/babysleben/static/js/main.c0b0396c.js",
+    "main.js": "/babysleben/static/js/main.04e59fb1.js",
     "static/media/yamii.jpg": "/babysleben/static/media/yamii.7b0d4e98caa99777c915.jpg",
     "index.html": "/babysleben/index.html",
     "main.74725511.css.map": "/babysleben/static/css/main.74725511.css.map",
-    "main.c0b0396c.js.map": "/babysleben/static/js/main.c0b0396c.js.map"
+    "main.04e59fb1.js.map": "/babysleben/static/js/main.04e59fb1.js.map"
   },
   "entrypoints": [
     "static/css/main.74725511.css",
-    "static/js/main.c0b0396c.js"
+    "static/js/main.04e59fb1.js"
   ]
 }
