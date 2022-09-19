@@ -16,7 +16,7 @@ function Navigationbar() {
             <Nav.Link href="#pricing">Pregnancy</Nav.Link>
           </Nav>
           <Nav style={{"textAlign":"center"}}>
-            <Nav.Link href="#deets">Children Safety</Nav.Link>
+            <Nav.Link href="#deets">Child Safety</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Contact
             </Nav.Link>
