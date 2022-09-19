@@ -10,3 +10,8 @@
   font-family: 'Cormorant Garamond', serif;
   color:  	#660066
 }
+
+.spacer{
+  margin-bottom: 110px; /* how high is your footer */
+  visibility: hidden; 
+}

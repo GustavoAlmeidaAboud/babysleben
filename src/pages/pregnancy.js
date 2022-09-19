@@ -10,18 +10,9 @@ import BrandExample from '../components/BrandExample'
 function pregnancy() {
 
     return (
-        <div>
-            <Container className='d-grid gap-1' fluid>
-            <Row>
-                <Col><Navigationbar/></Col>
-             </Row>
-            <Row>
-                <Col><Carrousel fluid/> </Col>
-            </Row>
-            <Row className='fixed-bottom'>
-                <Col><BrandExample/></Col>
-            </Row>
-      </Container>
+    <div>
+        <Container className='d-grid gap-1' fluid>
+        </Container>
     </div>
     )
   }

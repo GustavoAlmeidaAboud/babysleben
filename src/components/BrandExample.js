@@ -5,8 +5,8 @@ import { Image } from 'react-bootstrap';
 
 function BrandExample() {
   return (
-    <div>
-      <Navbar  bg="dark" variant="dark">
+    <>
+      <Navbar  bg="dark" variant="dark" className='fixed-bottom'>
         <Container>
           <Navbar.Brand href="#home">
             <Image src={Yamii} rounded style={{"width": "75px"}}/>
@@ -15,7 +15,7 @@ function BrandExample() {
           </Navbar.Brand>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 }
 
