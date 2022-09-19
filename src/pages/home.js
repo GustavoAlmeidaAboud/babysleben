@@ -7,6 +7,7 @@ import Carrousel from '../components/Carrousel.js';
 import ArticlesCards from '../components/ArticlesCards.js';
 import BrandExample from '../components/BrandExample.js';
 import {BrowserRouter as Router, Routes,Route,Link} from 'react-router-dom';
+import { Outlet} from "react-router-dom";
 
   
 function Home (){
@@ -15,7 +16,7 @@ function Home (){
     <>
         <Container className='d-grid gap-1' fluid>
         <Row>
-          <Col><ArticlesCards title="Hello World" ima="https://th.bing.com/th/id/R.e61041185cd63827e6cdb7a9179ae285?rik=rm2VN7OYHIS75w&pid=ImgRaw&r=0" text="Yamii Yamii
+          <Col><ArticlesCards pagelink={"/article1"} title="Hello World" ima="https://th.bing.com/th/id/R.e61041185cd63827e6cdb7a9179ae285?rik=rm2VN7OYHIS75w&pid=ImgRaw&r=0" text="Yamii Yamii
   Der Besafe Schwangerschaftsgurt, ist der beste Gurt auf dem Markt um euer Baby zu schützen. 
   Dieser Gurt hilf damit die Gurtführung, im unteren Bereich des Bauches nicht auf dem Baby ist. 
   Somit wenn wir eine Vollbremsung haben schirft der Gurt nicht am Baby ab, dies kann dem Baby das Leben retten. 
@@ -25,9 +26,6 @@ function Home (){
         </Row>
         <Row>
           <Col className='spacer'>.</Col>
-        </Row>
-        <Row>
-          <Col><BrandExample/></Col>
         </Row>
       </Container>
     </>

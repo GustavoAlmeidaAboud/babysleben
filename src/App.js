@@ -22,12 +22,16 @@ function App(){
         <Row>
           <Col><Carrousel fluid/> </Col>
         </Row>
+        <Row>
+          <Col><BrandExample/></Col>
+        </Row>
       </Container>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/pregnancy" element={<Pregnancy />} />
-        <Route path="/article1" element={<Article1 />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/pregnancy" element={<Pregnancy />} />
+            <Route path="" />
+          <Route path="/article1" element={<Article1 />} />
       </Routes>
     </div>
   )
