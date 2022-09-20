@@ -6,7 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 
 function ArticlesCards({ima,title,text,pagelink}) {
   return (
-    <Card style={{ maxWidth: '25rem' }}>
+    <Card style={{ maxWidth: '30rem'}}>
       <Card.Img variant="top" src={ima}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>

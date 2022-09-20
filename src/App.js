@@ -22,10 +22,6 @@ function App(){
         <Row>
           <Col><Carrousel fluid/> </Col>
         </Row>
-        <Row>
-          <Col><BrandExample/></Col>
-        </Row>
-      </Container>
       <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -33,6 +29,10 @@ function App(){
             <Route path="" />
           <Route path="/article1" element={<Article1 />} />
       </Routes>
+      <Row>
+          <Col><BrandExample/></Col>
+      </Row>
+      </Container>
     </div>
   )
 }

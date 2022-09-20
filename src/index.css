@@ -1,3 +1,4 @@
+* { margin: 0; padding: 0; }
 .image1{
   height: 15rem;
   max-width: 100%;
@@ -8,15 +9,44 @@
 
 .m-auto{
   font-family: 'Cormorant Garamond', serif;
-  color:  	#660066
+  color:  	#660066;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem
 }
 
-.spacer{
-  margin-bottom: 90px; /* how high is your footer */
-  visibility: hidden; 
+.m-auto:visited{
+  color:#660066
 }
 
+.m-auto:link{
+  color:#660066
+}
 
 .article{
   display: inline;
+}
+  
+
+.test:hover{
+  background-color: #660066;
+  color:white;
+  font-weight: 600;
+  
+}
+
+
+.test:active{
+  background-color: #660066;
+  color:white;
+  font-weight: 600;
+  
+}
+
+@media only screen and (min-width: 800px) {
+  .karusel {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

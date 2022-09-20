@@ -13,7 +13,7 @@ function Articles({title,text,vid}) {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text style={{textAlign:'justify'}}>{text}</Card.Text >
-          <div className='spacer'></div>
+          {/* <div className='spacer'></div> */}
       </Card.Body>
       </Card>
     </>
