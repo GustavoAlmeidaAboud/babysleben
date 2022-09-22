@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Navigationbar from '../components/Navigationbar.js'
 import Carrousel from '../components/Carrousel.js';
 import ArticlesCards from '../components/ArticlesCards.js';
-import BrandExample from '../components/BrandExample.js';
 import {BrowserRouter as Router, Routes,Route,Link} from 'react-router-dom';
 import { Outlet} from "react-router-dom";
 
@@ -30,7 +29,7 @@ function Home (){
           <Col><ArticlesCards title="Hello World" ima="https://www.netpapa.de/wp-content/plugins/aawp/public/image.php?url=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFkQzdkZ0E4T0wuanBn"/></Col>
         </Row>
       </Container>
-    </>
+    </> 
     )
   }
   

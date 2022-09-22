@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigationbar from '../components/Navigationbar'
 import Carrousel from '../components/Carrousel'
-import BrandExample from '../components/BrandExample'
 
 
 function pregnancy() {

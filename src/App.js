@@ -8,8 +8,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Navigationbar from './components/Navigationbar.js'
 import Carrousel from './components/Carrousel.js'
-import BrandExample from './components/BrandExample.js'
+import Footer from './components/Footer.js'
 import Col from 'react-bootstrap/Col';
+import { FaInstagram,FaTiktok,FaYoutube } from 'react-icons/fa';
+
 
 function App(){
 
@@ -30,7 +32,7 @@ function App(){
           <Route path="/article1" element={<Article1 />} />
       </Routes>
       <Row>
-          <Col><BrandExample/></Col>
+          <Col><Footer/></Col>
       </Row>
       </Container>
     </div>
