@@ -33,6 +33,7 @@ function App(){
       </Routes>
       <Row>
           <Col><Footer/></Col>
+
       </Row>
       </Container>
     </div>

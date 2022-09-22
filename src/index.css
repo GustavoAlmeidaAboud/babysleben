@@ -1,4 +1,5 @@
 * { margin: 0; padding: 0; }
+
 .image1{
   height: 15rem;
   max-width: 100%;
@@ -8,7 +9,8 @@
 }
 
 .m-auto{
-  margin-left: 0px;
+  margin-left: 51px;
+  text-align: center;
   font-family: 'Cormorant Garamond', serif;
   color:  	#660066;
   text-decoration: none;
